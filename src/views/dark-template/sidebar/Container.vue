@@ -9,7 +9,7 @@
           Kyle <span class="light-blue--text text--lighten-3">Richards</span>
         </h1>
         <span>
-          A software engineer, seeking his next role
+          Just a software engineer, seeking his next role
         </span>
       </div>
 
