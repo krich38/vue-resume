@@ -43,6 +43,7 @@
           </v-flex>
         </v-layout>
       </content-section>
+
       <content-section
         v-if="skills"
         id="to-timeline"
@@ -91,82 +92,60 @@ export default {
   name      : 'MainContent',
   components: { ContentSection },
   data      : () => ({
-    prouds: [
-      {
-        icon  : 'mdi-help-rhombus-outline',
-        text  : 'Answered 10M+ questions!',
-        source: '(Bytegate.ir post views)',
-      },
-      {
-        icon  : 'mdi-library-music',
-        text  : 'Made people enjoy and learn a new language for equivalent of 29+ years (older than myself!)',
-        source: '(Bobet.ir and its channel downloads)',
-      },
-      {
-        icon  : 'mdi-timer-sand',
-        text  : 'Saved +110 days of time of students, writers and etc!',
-        source: '(Delix.ir service usages)',
-      },
-      {
-        icon  : 'mdi-account-multiple',
-        text  : 'Tried to cover small part of 7 people expenses.',
-        source: '(My awesome colleagues)',
-      },
-    ],
     educations: [
       {
         icon       : 'mdi-medal',
         title      : 'Bachelor of Computer Science',
         location   : 'University of New England',
-        description: 'Became a member of University Academic Association of Computer Science',
+        // description: 'Became a member of University Academic Association of Computer Science',
       },
       {
         icon       : 'mdi-seal',
         title      : 'Masters of IT Project Management',
         location   : 'Charles Sturt University',
-        description: 'Became a member of University Academic Association of Computer Science',
+        // description: 'Became a member of University Academic Association of Computer Science',
       },
       {
         icon       : 'mdi-trophy',
         title      : 'Graduate Diploma of Psychology',
         location   : 'University of New England',
-        description: 'Became a member of University Academic Association of Computer Science',
+        // description: 'Became a member of University Academic Association of Computer Science',
       },
     ],
     skills: [
       {
         title: '.NET',
-        icon : 'mdi-language-php',
+        icon : 'mdi-dot-net',
         value: 10,
       },
       {
         title: 'Java',
-        icon : 'mdi-language-php',
+        icon : 'mdi-language-java',
         value: 10,
       },
       {
         title: 'Spring / Spring Boot / Hibernate',
-        icon : 'mdi-language-php',
+        icon : 'mdi-language-spring',
         value: 5,
       },
       {
         title: 'MSSQL / MySQL',
-        icon : 'mdi-language-php',
+        icon : 'mdi-database',
         value: 5,
       },
       {
         title: 'Oracle',
-        icon : 'mdi-language-php',
+        icon : 'mdi-database',
         value: 8,
       },
       {
         title: 'Azure',
-        icon : 'mdi-language-php',
+        icon : 'mdi-azure',
         value: 3,
       },
       {
         title: 'AWS',
-        icon : 'mdi-language-php',
+        icon : 'mdi-aws',
         value: 2,
       },
       {
